@@ -34,6 +34,18 @@ body {
   margin: 1em;
 }
 
+#centre_bas {
+  float: left;
+  display:block;
+  background-color:#C0C0C0;
+  height: 1000px;
+  width: 250px;
+  padding: 1rem;
+  margin: 1em;
+}
+}
+
+
 #bas {
   background:#C0C0C0;
   position:bottom;
