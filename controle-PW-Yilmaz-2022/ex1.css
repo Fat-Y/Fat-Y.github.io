@@ -1,6 +1,7 @@
 
 h1 {
-    background-color: rgb(240, 240, 240);   
+    background-color: rgb(240, 240, 240);
+    padding:  .8rem;   
     text-align: center;
 }
 
@@ -12,22 +13,50 @@ h1 {
 .bloc_centre {
     padding: 1rem;
     background-color: rgb(190, 190, 190);
+    border: 2px dashed black;
+    height: fit-content;
 }
 
 .bloc_centre_haut {
     background-color: rgb(212, 212, 212);
+    border-top: 1px solid;
 }
 
+.h1_centre_haut {
+    width: 50%;
+    margin-left: 50%;
+    border-bottom: 1px solid ;
+    transform: translate(-50%);
+}
+
+.txt_centre_haut {
+    padding: .5rem;
+}
 .bloc_centre_bas {
     background-color: rgb(212, 212, 212);
+    border-bottom:  1px solid;
+}
+
+.h1_centre_bas {
+    background-color: rgb(212, 212, 212);
+    width: 25%;
+    text-align: right;
+    font-style: italic;
+    float: right;
+    padding-right: 1rem;
 }
 
 .txt_centre_bas {
+    clear: right;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 3rem;
     padding: .5rem;
     width: 66%;
     text-align: justify;
     border-left: solid;
     border-right: solid;
+    line-height: 35px;
 }
 
 .colonne_gauche {
@@ -54,6 +83,11 @@ h1 {
     background-color: rgb(212, 212, 212);
     margin-left: 1rem;
     width: 25%;
+}
+
+.h1_droite {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
 }
 
 .txt_droite {
