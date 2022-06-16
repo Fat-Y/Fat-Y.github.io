@@ -9,25 +9,6 @@ h1 {
     display: flex;
 }
 
-.colonne_gauche {
-    background-color: rgb(212, 212, 212);
-    margin-right: 1rem;
-    padding: .5rem;
-    width: 25%;
-}
-
-.h1_gauche {
-    text-align: center;
-    background-color: rgb(240, 240, 240);   
-}
-
-.txt_gauche::first-letter {
-    float: left;
-    font-size: 2.5rem;
-    font-weight: bold;
-    padding-right: 1rem;
-}
-
 .bloc_centre {
     padding: 1rem;
     background-color: rgb(190, 190, 190);
@@ -47,6 +28,25 @@ h1 {
     text-align: justify;
     border-left: solid;
     border-right: solid;
+}
+
+.colonne_gauche {
+    background-color: rgb(212, 212, 212);
+    margin-right: 1rem;
+    padding: .5rem;
+    width: 25%;
+}
+
+.h1_gauche {
+    text-align: center;
+    background-color: rgb(240, 240, 240);   
+}
+
+.txt_gauche::first-letter {
+    float: left;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-right: 1rem;
 }
 
 .bloc_droite {
