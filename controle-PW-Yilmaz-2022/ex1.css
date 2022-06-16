@@ -1,25 +1,41 @@
 body {
-  background: hsl(150, 4%, 71%);;
+  background: #FFFFFF;
 }
 
 #gauche {
   float : left;
   display : block;
   flex-direction : colum-left;
+  background-color:#C0C0C0;
+  height: 1000px;
+  width: 250px;
+  padding: 1rem;
+  margin: 1em;
 }
 
 #droite {
-  float : right;
-  display : block;
-  flex-direction : colum-left;
+  float: left;
+  display:block;
+  flex-direction: column right;
+  background-color:#C0C0C0;
+  height: 1000px;
+  width: 250px;
+  padding: 1rem;
+  margin: 1em;
 }
 
 #centre {
-
+  float: left;
+  display:block;
+  background-color:#C0C0C0;
+  height: 1000px;
+  width: 250px;
+  padding: 1rem;
+  margin: 1em;
 }
 
 #bas {
-  background:#ccc;
+  background:#C0C0C0;
   position:bottom;
   bottom:0;
   width:100%;
