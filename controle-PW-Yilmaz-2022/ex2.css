@@ -20,5 +20,27 @@ img {
 }
 
 h1 {
-  color: 96FC9E;
+  color: #1A17F1;
+  text-decoration: underline;
+  font-size: 25px;
+
 }
+
+header {
+  color: #9616EF;
+  border:5px dotted black;
+  font-size: 30px;
+}
+
+.photo_enbas {
+  position: relative;
+  width: 1000px;
+  height: 60px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  overflow: hidden;
+  background-image : url('Layout2022.JPG');
+}
+
