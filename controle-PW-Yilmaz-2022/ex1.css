@@ -3,5 +3,11 @@ body {
 }
 
 .gauche {
-  text-align: left;
+  position: relative;
+  left: 40px;
+}
+
+.droite {
+  text-align:  right;
+  float: right;
 }
