@@ -1,34 +1,62 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <title>Travaux Pratiques 3 (CSS)</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="ex1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercice 1</title>
+    <link rel="stylesheet" href="ex1.css">
 </head>
 <body>
-	<div id="gauche">
-	<h1>TITRE</h1>
-	<p>Dans cette division, les entêtes de niveau 1 sont centrées sur fond gris (le même gris sera utilisé pour tous les fonds d'entête), avec un liseré inset, alors que les paragraphes seront ferrés à gauche (ignorez l'effet de lettrine)</p>
-	</div>
-
-	<div id="centre">
-	<h2>titre</h2>
-	<p> Dans cette division, les entêtes de niveau 1 utilisent la moitié de la largeur,sont centrées sur fond gris et sont soulignés. Les paragraphes sont justifiés.</p>
-	</div>
-
-<div id="centre_bas">
-	<h3>titre</h3>
-	<p> Dans cette division, les entêtes de niveau 1 utilisent un quart de la largeur, sont ferrées à droite et sont en italique. Les paragraphes occupent les deux tiers de la largeur, sont justifiés, cadrés à gauche et à droite. Ils possèdent une marge basse de 2 fois la hauteur de la fonte.</p>
-</div>
-
-<div id="droite">
-	<h4>TITRE</h4>
-	<p> Dans cette division, les entêtes de niveau 1 seront centrées sur fond gris avec un liseré outset, alors que les paragraphes sont ferrées à droite.</p>
-</div>
-
-<div id="bas">
-	<h5>titre</h5>
-	<p> Dans cette division, les entêtes de niveau 1 sont centrées sur fond gris, en italique. Les paragraphes utilisent la moitié de la largeur et sont centrées.</p>
-</div>
+    <div class="bloc_haut">
+        <div class="colonne_gauche">
+            <h1 class="h1_gauche">TITRE</h1>
+            <p class="txt_gauche">
+                Dans cette division, les entêtes de niveau 1 sont centrées sur fond gris (le
+                même gris sera utilisé pour tous les fonds d'entête), avec un liseré inset ,
+                alors que les paragraphes seront ferrés à gauche (ignorez l'effet de
+                lettrine)
+            </p>
+        </div>
+        <div class="bloc_centre">
+            <div class="bloc_centre_haut">
+                <h1 class="h1_milieu_haut">
+                    titre
+                </h1>
+                <p class="txt_centre_haut">
+                    Dans cette division, les entêtes de niveau 1 utilisent la moitié de la largeur,
+                    sont centrées sur fond gris et sont soulignés. Les paragraphes sont
+                    justifiés.
+                </p>    
+            </div>
+            <div class="bloc_centre_bas">
+                <p class="div_milieu_bas">
+                    titre
+                </p>
+                <p class="txt_centre_bas">
+                    Dans cette division, les entêtes de niveau 1 utilisent un quart de la largeur,
+                    sont ferrées à droite et sont en italique. Les paragraphes occupent les
+                    deux tiers de la largeur, sont justifiés, cadrés à gauche et à droite. Ils
+                    possèdent une marge basse de 2 fois la hauteur de la fonte.
+                </p>
+            </div>
+        </div>
+        <div class="bloc_droite">
+            <h1 class="h1_droite">TITRE</h1>
+            <p class="txt_droite">
+                Dans cette division, les entêtes de niveau 1 seront centrées sur fond gris
+                avec un liseré outset , alors que les paragraphes sont ferrées à droite
+            </p>
+        </div>    
+    </div>
+    <div class="bloc_bas">
+        <h1 class="titre_bas">
+            titre
+        </h1>
+        <p class="txt_bas">
+            Dans cette division, les entêtes de niveau 1 sont centrées sur fond gris, en
+            italique. Les paragraphes utilisent la moitié de la largeur et sont centrées.    
+        </p>
+    </div>
 </body>
 </html>
