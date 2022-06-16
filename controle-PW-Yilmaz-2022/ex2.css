@@ -44,3 +44,13 @@ header {
   background-image : url('Layout2022.JPG');
 }
 
+#part1 {
+  color: #EF164E;
+}
+
+#part3 {
+  font-weight: bolder;
+  font-style: italic;
+
+
+}

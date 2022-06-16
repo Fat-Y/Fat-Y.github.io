@@ -1,6 +1,3 @@
-/* ======================
-======= GLOBAL ======= 
-=========================*/
 
 h1 {
     background-color: rgb(240, 240, 240);   
@@ -11,10 +8,6 @@ h1 {
     border: solid 1px slateblue;
     display: flex;
 }
-
-/* ======================
-======= DIV GAUCHE ======= 
-=========================*/
 
 .colonne_gauche {
     background-color: rgb(212, 212, 212);
@@ -34,10 +27,6 @@ h1 {
     font-weight: bold;
     padding-right: 1rem;
 }
-
-/* ======================
-======= DIV MILIEU ======= 
-=========================*/
 
 .bloc_centre {
     padding: 1rem;
@@ -60,10 +49,6 @@ h1 {
     border-right: solid;
 }
 
-/* ======================
-======= DIV DROITE ======= 
-=========================*/
-
 .bloc_droite {
     padding: .5rem;
     background-color: rgb(212, 212, 212);
@@ -74,10 +59,6 @@ h1 {
 .txt_droite {
     text-align: right;
 }
-
-/* ======================
-======= DIV DU BAS ======= 
-=========================*/
 
 .bloc_bas {
     margin-top: 3rem;
